@@ -23,7 +23,7 @@ Notification="${Yellow}[Notification]${Font}"
 #IP and config
 #IPAddress=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
 config="/root/shadowsocks/userapiconfig.py"
-Github="https://github.com/tonydan6324/ssrmu.git"
+Github="https://github.com/cba7371979/11.git"
 Libsodiumr_file="/usr/local/lib/libsodium.so"
 get_ip(){
 	ip=$(curl -s https://ipinfo.io/ip)
