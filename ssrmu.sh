@@ -23,7 +23,7 @@ Notification="${Yellow}[Notification]${Font}"
 #IP and config
 #IPAddress=`wget http://members.3322.org/dyndns/getip -O - -q ; echo`;
 config="/root/shadowsocks/userapiconfig.py"
-Github="https://github.com/cba7371979/11.git"
+Github="https://github.com/tiflavben/99901.git"
 Libsodiumr_file="/usr/local/lib/libsodium.so"
 get_ip(){
 	ip=$(curl -s https://ipinfo.io/ip)
@@ -200,9 +200,9 @@ db_new(){
 	clear
 	echo -e "如果以下手动配置错误，请在${config}手动编辑修改"
 	read -p "请输入你的对接数据库IP(例如:127.0.0.1 如果是本机请直接回车): " MYSQL_HOST
-	read -p "请输入你的数据库名称(默认chubo):" MYSQL_DB
-	read -p "请输入你的数据库端口(默认3306):" MYSQL_PORT
-	read -p "请输入你的数据库用户名(默认chubo):" MYSQL_USER
+	read -p "请输入你的数据库名称(默认xxx):" MYSQL_DB
+	read -p "请输入你的数据库端口(默认xxx):" MYSQL_PORT
+	read -p "请输入你的数据库用户名(默认xxx):" MYSQL_USER
 	read -p "请输入你的数据库密码(默认root):" MYSQL_PASS
 	read -p "请输入你的节点编号(回车默认为节点ID 3):  " NODE_ID
 	read -p "请输入你的混淆参数[务必与配置文件中一致](回车默认为: microsoft.com):  " MU_SUFFIX
